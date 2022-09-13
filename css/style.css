@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+
+@media (max-width: 600px) {
+
+    header>div {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    header img {
+        display: none;
+    }
+
+    .explicp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explicp>.luffysorrindo {
+        padding-top: 85px;
+        margin: auto;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav a:hover {
+        padding: 1px;
+        transition-duration: 0.5s;
+    }
+
+    article>p,h2 {
+        padding: 15px;
+    }
+
+}
+:root {
+    --cor0: #1CFA62;
+    --cor2: #18DE8F;
+    --cor3: #27F5DE;
+    --cor4: #18BFDE;
+    --cor5: #1C9DFA;
+    --cor6: #13D2DB;
+
+    --fonte-pers: 'Anek Telugu', sans-serif;
+    --font-padrao: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header img {
+    max-width: 150px;
+    width: 100%;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    background-color: var(--cor4);
+    padding-bottom: 15px;
+}
+
+header>img {
+    margin-left: 10px;
+    position: absolute;
+}
+
+header>div {
+    margin-top: 15px;
+    margin: auto;
+}
+
+.headerdiv>h1 {
+    font-family: var(--fonte-pers);
+    font-size: 2.3em;
+    letter-spacing: 1.2px;
+    color: #000;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.headerdiv>p {
+    font-family: var(--font-padrao);
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 1.15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 20px;
+    font-size: 1.2em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -1.5px 5px 7px rgba(0, 0, 0, 0.350);
+}
+
+nav>a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: #000;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+
+main {
+    padding-top: 20px;
+    max-width: 1000px;
+    min-width: 220px;
+    margin: auto;
+}
+
+main img {
+    width: 100%;
+}
+
+main>article>h1 {
+    font-family: var(--fonte-pers);
+    font-size: 2.3em;
+    letter-spacing: 1.5px;
+
+}
+
+article>h2 {
+    font-family: var(--fonte-pers);
+    font-size: 2.3em;
+    letter-spacing: 1.5px;
+}
+
+article>p {
+    text-align: justify;
+    text-indent: 5px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    letter-spacing: 1.05px;
+}
+
+.explicp {
+    display: flex;
+}
+
+.explicp>p {
+    padding-right: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+    letter-spacing: 1.1px;
+}
+
+.explicp>.luffysorrindo {
+    max-width: 150px;
+    width: 100%;
+    transform: translate(0, -25%);
+}
+
+.bandopq {
+    width: 100%;
+}
+.bando {
+    max-width: 550px;
+    min-width: 180px;
+}
+
+picture>img {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+
+#luffyshanks{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#fimimg {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+aside > h1 {
+    font-family: var(--fonte-pers);
+    font-size: 2em;
+    margin: 40px 0px 40px 5px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+#text > h2 {
+    font-family: var(--fonte-pers);
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+#text > p{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding:5px 0px 5px 5px;
+    letter-spacing: 1.2px;
+}
+
+.oda{
+    display: flex;
+    flex-direction: column;
+}
+.oda > img{
+    max-width: 300px;
+    width: 80%;
+    padding:20px 5px 30px 5px;
+}
